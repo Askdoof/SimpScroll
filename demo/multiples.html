@@ -11,6 +11,7 @@
             position: fixed; top:0; left:0;
             background:#1d2127; 
         }
+            #sidebar.sidebar{ left: auto; right:0; }
             #content{ width: 100%; height: 100%; overflow-y: auto; }
                 
                 ul{ padding: 0 50px 0 70px; margin:20px 0; }
@@ -83,10 +84,52 @@
     </div>
     <div id="scroll"><div id="scroller"></div></div>
 </div>
+<div id="sidebar" class="sidebar">
+    <div id="content" class="content">
+        <ul>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+            <li><a>Lorem ipsum</a></li>
+        </ul>
+    </div>
+    <div id="scroll" class="sc"><div id="scroller"></div></div>
+</div>
     
 <script src="../simpscroll.min.js"></script>
 <script>
 simpScroll('#content','#scroll');
+simpScroll('.content','.sc');
 </script>
 </body>
 </html>
